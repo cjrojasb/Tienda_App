@@ -7,5 +7,6 @@ class Product < ApplicationRecord
     if self.premium.nil?
       self.premium = false
     end
+    
   end
 end
